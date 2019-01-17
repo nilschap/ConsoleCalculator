@@ -6,6 +6,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.lang.reflect.InvocationTargetException;
+
 
 public class CalculatorTest {
 
@@ -33,9 +35,9 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testDivisionIsIndexOutOfBounds()
-     throws IndexOutOfBoundsException {
-         assertTrue(testee.division(2,0)==0);
+    public void ArithmeticException()
+     throws ArithmeticException {
+         assertTrue(testee.division(2,1)==2);
     }
 
     @Test
