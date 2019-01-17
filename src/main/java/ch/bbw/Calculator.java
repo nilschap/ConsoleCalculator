@@ -12,4 +12,26 @@ public class Calculator {
     public int division(int value1,int value2){
         return value1/value2;
     }
+
+    //Aufgabe sichbarkeit
+    protected int protectedsumme(int value1, int value2){
+        return value1+value2;
+    }
+
+    /*package protected int packageprotectedsummme(int value1,int value2){
+        return  value1+value2;
+    }*/
+
+    public int publicsubtraktion(int value1, int value2){
+        return value1-value2;
+    }
+
+
+    //Äquivalenzklassen summe
+    public int summetwopositiv(int value1, int value2){
+        return value1+value2;
+    }
+
+
+
 }
