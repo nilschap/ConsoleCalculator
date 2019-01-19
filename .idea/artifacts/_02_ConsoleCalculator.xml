@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="_02_ConsoleCalculator">
+    <output-path>$PROJECT_DIR$/out/artifacts/_02_ConsoleCalculator</output-path>
+    <root id="root">
+      <element id="archive" name="_02_ConsoleCalculator.jar">
+        <element id="module-output" name="_02_ConsoleCalculatorWithMaven" />
+      </element>
+    </root>
+  </artifact>
+</component>

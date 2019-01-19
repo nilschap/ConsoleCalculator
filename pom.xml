@@ -24,7 +24,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>ch.bbw.consolecalculator.App</mainClass>
+              <main-class>ch.bbw.App</main-class>
             </manifest>
           </archive>
         </configuration>
@@ -40,4 +40,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+
 </project>
+
