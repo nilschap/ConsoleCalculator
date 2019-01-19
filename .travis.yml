@@ -1,6 +1,6 @@
 language: java
 sudo: false
-script: mvn install
+script: mvn test
 
 before_deploy:
       # Set up git user name and tag this commit
