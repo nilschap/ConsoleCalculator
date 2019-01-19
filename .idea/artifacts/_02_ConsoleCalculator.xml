@@ -1,9 +1,12 @@
 <component name="ArtifactManager">
   <artifact name="_02_ConsoleCalculator">
-    <output-path>$PROJECT_DIR$/out/artifacts/_02_ConsoleCalculator</output-path>
+    <output-path>$PROJECT_DIR$/.idea/artifacts/_02_ConsoleCalculator/artifacts/_02_ConsoleCalculator</output-path>
     <root id="root">
       <element id="archive" name="_02_ConsoleCalculator.jar">
         <element id="module-output" name="_02_ConsoleCalculatorWithMaven" />
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
       </element>
     </root>
   </artifact>
